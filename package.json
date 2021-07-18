@@ -1,0 +1,14 @@
+{
+  "name": "go-yes-online-summit",
+  "version": "1.0.0",
+  "description": "private package created by Planit4Future",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "planit4future",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}

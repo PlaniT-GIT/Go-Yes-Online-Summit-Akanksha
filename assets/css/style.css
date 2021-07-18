@@ -1,12 +1,6 @@
-/**
-* Template Name: Arsha - v2.2.1
-* Template URL: https://bootstrapmade.com/arsha-free-bootstrap-html-template-corporate/
-* Author: BootstrapMade.com
-* License: https://bootstrapmade.com/license/
-*/
 
 /*--------------------------------------------------------------
-# General
+# PlanIT Developer's Style Sheet
 --------------------------------------------------------------*/
 body {
   font-family: "Open Sans", sans-serif;
@@ -246,7 +240,7 @@ h1, h2, h3, h4, h5, h6 {
   }
 }
 
-/* Get Startet Button */
+/* Register Now Button */
 .get-started-btn {
   margin-left: 25px;
   color: #fff;
@@ -295,31 +289,31 @@ h1, h2, h3, h4, h5, h6 {
 .mobile-nav {
   position: fixed;
   top: 55px;
-  right: 15px;
+  right: 3px;
   bottom: 15px;
-  left: 15px;
+  left: 140px;
   z-index: 9999;
   overflow-y: auto;
-  background: #fff;
+  background: rgb(47, 16, 60);
   transition: ease-in-out 0.2s;
   opacity: 0;
   visibility: hidden;
-  border-radius: 10px;
+  border-radius: 5px;
   padding: 10px 0;
 }
 
 .mobile-nav * {
-  margin: 0;
+  margin:4%;
   padding: 0;
-  list-style: none;
+  list-style:disc;
 }
 
 .mobile-nav a {
   display: block;
   position: relative;
-  color: #37517e;
+  color: #c8d8ed;
   padding: 10px 20px;
-  font-weight: 500;
+  font-weight: 900;
   outline: none;
 }
 
@@ -379,6 +373,46 @@ h1, h2, h3, h4, h5, h6 {
   color: #fff;
 }
 
+
+/*Reg Button*/
+
+.square_btn{
+  display: inline-block;
+  position: relative;
+  padding: 0.35em 1em;
+  background: #668ad8;/*Button Color*/
+  color: rgb(255, 255, 255);
+  text-decoration:wavy;
+}
+
+.square_btn:before{
+  content: "";
+  position: absolute;
+  top: -16px;
+  left: 0;
+  width: -webkit-calc(100% - 0px);
+  width: calc(100% - 0px);
+  height: 0;
+  border: solid 8px transparent;
+  border-bottom-color: #8eacec;/*brighter than button color*/
+}
+
+.square_btn:active{/*On Click*/
+  padding: 0.32em 0.9em;
+  -ms-transform: translateY(-2px);
+  -webkit-transform: translateY(-2px);
+  transform: translateY(-2px);
+}
+
+.square_btn:active:before{ 
+  width: -webkit-calc(100% - 12px);
+  width: calc(100% - 12px);
+}
+
+.square_btn:active:before{
+ top:-12px;
+ border-width: 6px;
+}
 /*--------------------------------------------------------------
 # Hero Section
 --------------------------------------------------------------*/
@@ -605,6 +639,15 @@ section {
 /*--------------------------------------------------------------
 # About Us
 --------------------------------------------------------------*/
+.about .logo-animate {
+ width:auto;
+ text-align: center;
+ padding: 20px;
+}
+.about img {
+  max-width: 100%;
+  height: auto;
+}
 .about .content h3 {
   font-weight: 600;
   font-size: 26px;
