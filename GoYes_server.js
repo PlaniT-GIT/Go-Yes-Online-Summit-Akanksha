@@ -18,7 +18,7 @@ app.get('/Pages/inner-page.html', function(req,res)
 	res.sendFile(__dirname+"/"+"inner-page.html");
 });
 
-var server=app.listen(8085,'192.168.43.36', function()
+var server=app.listen(8085, function()
 {
 	var host = server.address().address;
 	var port = server.address().port;
