@@ -10,7 +10,7 @@ app.use('/node_modules', express.static(__dirname + '/node_modules'));
 
 app.get('/index.html', function(req,res)
 {
-	res.sendFile(__dirname+"/"+"index.html");
+	res.sendFile(__dirname+"/"+"index.html");	
 });
 
 app.get('/Pages/inner-page.html', function(req,res)
