@@ -26,3 +26,4 @@ var server=app.listen(8085, function()
 	console.log(__dirname);
 	console.log(__dirname+"/Pages/inner-page.html");
 }); 
+	
