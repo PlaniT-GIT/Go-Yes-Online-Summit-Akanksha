@@ -713,6 +713,7 @@ section {
 --------------------------------------------------------------*/
 .why-us .content {
   padding: 60px 100px 0 100px;
+  text-align: center;
 }
 
 .why-us .content h3 {
