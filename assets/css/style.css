@@ -685,7 +685,7 @@ section {
   margin-bottom: 0;
 }
 
-.about .content .btn-learn-more {
+.about .btn-learn-more {
   font-family: "Poppins", sans-serif;
   font-weight: 500;
   font-size: 14px;
@@ -702,7 +702,7 @@ section {
   border: 2px solid #47b2e4;
 }
 
-.about .content .btn-learn-more:hover {
+.about .btn-learn-more:hover {
   background: #47b2e4;
   color: #fff;
   text-decoration: none;
@@ -1889,3 +1889,14 @@ section {
     padding-top: 4px;
   }
 }
+
+.Testimonials{
+  padding: 20px;
+  color: yellow;
+  text-align: center;
+}
+iframe{
+  border-radius: 5px;
+}
+ 
+ 
